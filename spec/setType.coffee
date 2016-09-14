@@ -1,5 +1,5 @@
 
-setType = require "../src/setType"
+setType = require ".."
 
 describe "setType()", ->
 

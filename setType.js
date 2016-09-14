@@ -1,14 +1,13 @@
-var setProto;
 
-setProto = require("setProto");
+var setProto = require('setProto');
 
-module.exports = function(value, type) {
+function setType(value, type) {
   if (type && type.prototype) {
     setProto(value, type.prototype);
   } else if (type === null) {
     setProto(value, null);
   }
   return value;
-};
+}
 
-//# sourceMappingURL=../../map/src/setType.map
+module.exports = setType;

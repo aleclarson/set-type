@@ -1,14 +1,11 @@
 {
   "name": "setType",
   "version": "1.0.0",
-  "main": "js/src/setType",
+  "main": "setType.js",
+  "plugins": [
+    "lotus-runner"
+  ],
   "dependencies": {
     "setProto": "aleclarson/setProto#1.0.0"
-  },
-  "lotus": {
-    "plugins": [
-      "lotus-coffee",
-      "lotus-runner"
-    ]
   }
 }
