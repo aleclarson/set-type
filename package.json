@@ -1,0 +1,11 @@
+{
+  "name": "setType",
+  "version": "1.0.0",
+  "main": "setType.js",
+  "plugins": [
+    "lotus-runner"
+  ],
+  "dependencies": {
+    "setProto": "aleclarson/setProto#1.0.1"
+  }
+}
