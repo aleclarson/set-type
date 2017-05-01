@@ -1,0 +1,8 @@
+{
+  "name": "setType",
+  "version": "1.0.0",
+  "main": "setType.js",
+  "dependencies": {
+    "setProto": "aleclarson/setProto#1.0.1"
+  }
+}
